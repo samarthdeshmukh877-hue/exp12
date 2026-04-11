@@ -1,67 +1,26 @@
-Experiment No. 12: Data Visualization using Matplotlib
+# Categorical Data Analysis using Python
 
-Aim:
+## Overview
+This project performs categorical data analysis on a student dataset. It utilizes Python's `pandas` library to explore relationships between student demographics (Gender, Department) and their academic performance (Grades).
 
-To perform data visualization using the Matplotlib library in Python.
+## Objectives
+- Calculate the distribution of students across Departments, Genders, and Grades.
+- Analyze the percentage distribution of student grades.
+- Perform cross-tabulation analysis (e.g., Gender vs. Grade, Department vs. Grade).
 
-Objectives:
+## Dataset
+The analysis is based on `Expt11.csv`, which contains the following columns:
+- **Student**: Unique student identifier.
+- **Gender**: Male or Female.
+- **Department**: CSE, IT, ECE, or Mechanical.
+- **Grade**: Academic grades (A, B, C).
 
-1.To understand the importance of data visualization.
+## Key Features
+- **Frequency Counts**: Automated counts for all categorical variables.
+- **Proportional Analysis**: Percentage breakdown of grades.
+- **Crosstab Analysis**: Relationship matrices between different categorical factors.
 
-2.To create different types of plots using Matplotlib.
-
-3.To represent data graphically for better understanding.
-
-Theory:
-
-Data Visualization is the graphical representation of data to understand patterns, trends, and relationships. It helps in making complex data easy to interpret.
-
-Matplotlib is a popular Python library used for creating static, animated, and interactive visualizations. It provides various plotting functions such as:
-
-1.Line Plot – shows trends over time
-
-2.Bar Chart – compares different categories
-
-3.Histogram – shows data distribution
-
-4.Pie Chart – represents proportions
-
-The pyplot module in Matplotlib is commonly used for plotting graphs.
-
-Procedure:
-
-1.Import required libraries (pandas, matplotlib.pyplot).
-
-2.Create or load a dataset.
-
-3.Use Matplotlib functions to create different plots:
-
-3.1.Line Plot
-
-3.2.Bar Chart
-
-3.3.Histogram
-
-3.4.Pie Chart
-
-4.Add labels, title, and legend to graphs.
-
-5.Display plots using show().
-
-Observations:
-
-1.Line plot shows variation of marks across subjects.
-
-2.Bar chart clearly compares marks between subjects.
-
-3.Histogram shows distribution of marks.
-
-4.Pie chart represents percentage contribution of each subject.
-
-Result:
-
-Different types of graphs were successfully created using Matplotlib, and data was visualized effectively.
-
-Conclusion:
-
-Matplotlib is a powerful library for data visualization. It helps in representing data in graphical form, making it easier to analyze and interpret patterns and trends.
+## Requirements
+To run this notebook, you need:
+- Python 3.x
+- Pandas
